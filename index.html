@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+  </head>
+  <body id="abody">
+    <main>
+      <header id="options"></header>
+      <article id="caculator">
+        <section id="display"></section>
+        <button class="button big-button" id="clr" onclick="clearInput()">
+          CLR
+        </button>
+        <button calss="button">DEL</button>
+        <button calss="button" id="btndiv" onclick="getId()">/</button>
+        <button calss="button" id="btn7" onclick="getId()">7</button>
+        <button calss="button" id="btn8" onclick="getId()">8</button>
+        <button calss="button" id="btn9" onclick="getId()">9</button>
+        <button calss="button" id="btnmult" onclick="getId()">*</button>
+        <button calss="button" id="btn4" onclick="getId()">4</button>
+        <button calss="button" id="btn5" onclick="getId()">5</button>
+        <button calss="button" id="btn6" onclick="getId()">6</button>
+        <button calss="button" id="btnsub" onclick="getId()">-</button>
+        <button calss="button" id="btn1" onclick="getId()">1</button>
+        <button calss="button" id="btn2" onclick="getId()">2</button>
+        <button calss="button" id="btn3" onclick="getId()">3</button>
+        <button calss="button" id="btnadd" onclick="getId()">+</button>
+        <button calss="button">.</button>
+        <button calss="button" id="btn0" onclick="getId()">0</button>
+        <button class="button big-button" id="btn9" onclick="equals()">
+          =
+        </button>
+      </article>
+    </main>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
